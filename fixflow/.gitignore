@@ -1,0 +1,15 @@
+# Firebase local state and debug output
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Never commit backend credentials if one is used elsewhere
+*service-account*.json
+firebase-adminsdk-*.json
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
